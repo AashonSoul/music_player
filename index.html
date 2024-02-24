@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little_music_player</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <div id="left"></div>
+        <div id="right">
+            <h3>All Songs...</h3>
+            <div id="all_songs"></div>
+        </div>
+    </div>
+
+    <div id="player">
+        <div id="song_details">
+            <!-- add gif -->
+        </div>
+        <div id="timeline">
+            <input type="range" name="range" id="my_progress_bar" value="0" min="0" max="100">
+        </div>
+        <div id="icons">
+            <h3 id="backward"><i class="ri-skip-back-fill"></i></h3>
+            <h3 id="play"><i class="ri-play-fill"></i></h3>
+            <h3 id="forward"><i class="ri-skip-forward-fill"></i></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
